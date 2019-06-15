@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <Button
+       android:id="@+id/logout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="LogOut"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:padding="5dp"
+       android:layout_margin="10dp"
+       android:background="@color/colorAccent"/>
+
+   <Button
+       android:id="@+id/btnGallery"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Gallary"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:padding="5dp"
+       android:layout_margin="10dp"
+       android:background="@color/colorPrimaryDark"/>
+
+   <Button
+       android:id="@+id/btnSInfo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Get School Info"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:padding="5dp"
+       android:layout_margin="10dp"
+       android:background="@color/colorAccent"/>
+
+   <Button
+       android:id="@+id/btnFInfo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Get Faculty Info"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:padding="5dp"
+       android:layout_margin="10dp"
+       android:background="@color/colorPrimaryDark"/>
+   <Button
+       android:id="@+id/btnAboutUs"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="About Us"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:textSize="20sp"
+       android:padding="5dp"
+       android:layout_margin="10dp"
+       android:background="@color/colorAccent"/>
+
+</LinearLayout>
